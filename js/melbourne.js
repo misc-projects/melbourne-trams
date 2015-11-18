@@ -1,8 +1,8 @@
 
-var map = L.map('map').setView([-37.8168, 144.9643], 13);
+var map = L.map('map').setView([-37.8168, 144.9643], 15);
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={token}', {
-	minZoom: 2,
+	minZoom: 12,
 	maxBounds: [[37.924, 144.757], [-37.704, 145.169]], 
 	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
